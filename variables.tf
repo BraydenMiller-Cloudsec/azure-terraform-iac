@@ -34,3 +34,8 @@ variable "allowed_ssh_ip" {
   description = "Your public IP address for SSH access"
   type        = string
 }
+
+variable "ssh_public_key" {
+  description = "SSH public key for VM access"
+  type        = string
+}
